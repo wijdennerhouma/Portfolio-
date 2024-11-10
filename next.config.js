@@ -1,7 +1,6 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
-  output: 'export',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -23,5 +22,7 @@ module.exports = {
         pathname: '**',
       },
     ],
+    unoptimized: true, // Optionnel, si vous ne souhaitez pas utiliser l'API d'optimisation d'images de Next.js
   },
-}
+  output: 'export', // Cette ligne active l'export statique
+};
