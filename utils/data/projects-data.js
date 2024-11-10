@@ -1,0 +1,122 @@
+;
+import realEstate from '/public/image/real-estate.jpg';
+import travel from '/public/image/travel.jpg';
+
+export const projectsData = [
+    {
+        id: 1,
+        name: 'Automated Solar Panel Maintenance System',
+        description: "AI and IoT-based solar panel maintenance solution. Using a camera and Raspberry Pi to detect dirt and damage through real-time image analysis." ,
+        tools: ['Django','CNN','OpenCV','TensorFlow','MQTT'],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 2,
+        name: 'Real-Time Facial Recognition System',
+        description: 'Development of a deep learning model for real-time face detection and recognition from video streams, ideal for security or smart access applications.',
+        tools: ['OpenCV', "TensorFlow", "Keras", "CNN"],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 3,
+        name: 'Customer Review Sentiment Analysis',
+        description: 'Development of a sentiment analysis model to extract opinions and emotions from texts like customer reviews. This enables businesses to enhance their products and marketing strategies based on customer feedback.',
+        tools: ['Python', 'NLTK', 'TensorFlow'],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 4,
+        name: 'Image Recognition for Product Classification',
+        description: 'Implementation of an image recognition system capable of classifying products from photos.',
+        tools: ['OpenCV', "TensorFlow", "Keras", "CNN"],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 5,
+        name: 'Interactive Dashboard for Data Analysis',
+        description: 'Development of an interactive dashboard enabling real-time data visualization and analysis, tailored for diverse visualization needs such as tracking sales or performance.',
+        tools: ['Python', 'Streamlit', 'Pandas', 'Matplotlib', 'Seaborn'],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 6,
+        name: 'Intelligent Chatbot for Telegram',
+        description: 'Development of an intelligent chatbot to automate the handling of both simple and complex user inquiries, thereby reducing customer support workload.',
+        tools: [ 'NLTK', 'SpaCy', 'Telegram Bot API', 'Flask', 'MongoDB', 'WebSockets'],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 7,
+        name: '3D Virtual Glasses Try-On Solution',
+        description: 'Development of a 3D virtual glasses try-on web application to enhance the online user experience, featuring an innovative recommendation functionality that suggests eyewear models tailored to the users face shape.',
+        tools: [ 'Laravel', 'React', 'TensorFlow', 'Three.js', 'WebGL', 'MySQL', 'MongoDB', 'Django','Bootstrap', 'CNN'],
+        role: 'Full Stack & AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 8,
+        name: 'Recommendation System for an E-commerce Platform',
+        description: 'Development of a recommendation engine for an e-commerce platform that suggests products to users based on their purchase history, preferences, and previous interactions.',
+        tools: [ 'Django', 'Pandas', 'NumPy', 'Scikit-Learn', 'TensorFlow', 'Plotly', 'PostgreSQL', 'Matrix Factorization', 'TensorFlow Extended (TFX)'],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 9,
+        name: 'Inventory Optimization System',
+        description: 'Creation of an intelligent plugin for an e-commerce platform aimed at anticipating stock needs and optimizing order levels based on historical sales data.',
+        tools: ['Django', 'TensorFlow Serving', 'Pandas', 'NumPy', 'Scikit-Learn', 'TensorFlow', 'PostgreSQL'],
+        role: 'AI Developer',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 10,
+        name: 'Hotel Reservation Management Web Application',
+        description: 'Developed a platform for hotel reservation management, enabling clients to manage reservations, view room availability, and automate payment and booking processes.',
+        tools: ['Laravel', 'MySQL', 'Bootstrap', 'Twilio'],
+        code: '',
+        role: 'Full Stack Developer',
+        demo: '',
+        image: travel,
+    },
+    
+];
+
+
+// Do not remove any property.
+// Leave it blank instead as shown below
+
+// {
+//     id: 1,
+//     name: '',
+//     description: "",
+//     tools: [],
+//     role: '',
+//     code: '',
+//     demo: '',
+//     image: crefin,
+// },
