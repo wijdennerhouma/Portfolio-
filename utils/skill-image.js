@@ -4,7 +4,7 @@ import afterEffects from '/public/svg/skills/after-effects.svg';
 import angular from '/public/svg/skills/angular.svg';
 import aws from '/public/svg/skills/aws.svg';
 import azure from '/public/svg/skills/azure.svg';
-import blender from '/public/svg/skills/blender.svg';
+import blender from '/public/svg/skills/Blender.svg';
 import bootstrap from '/public/svg/skills/bootstrap.svg';
 import bulma from '/public/svg/skills/bulma.svg';
 import c from '/public/svg/skills/c.svg';
